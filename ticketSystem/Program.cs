@@ -58,10 +58,8 @@ namespace ticketSystem
                     Watching = Console.ReadLine();
 
                     fileWriter.WriteLine("{0}|{1}|{2}|{3}|{4}|{5}|{6}", TicketID, Summary, Status, Priority, Submitter, Assigned, Watching);
-                    {
-                        fileWriter.Close();
-                    }
-
+                
+                
                 }
 
               
